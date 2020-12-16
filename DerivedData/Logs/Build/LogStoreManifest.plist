@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>A498B982-7FCA-407C-A7D6-DD6EB2D5288C</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A498B982-7FCA-407C-A7D6-DD6EB2D5288C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>XCUITestingDevOps project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>XCUITestingDevOps</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Testing project XCUITestingDevOps with scheme XCUITestingDevOps</string>
+			<key>timeStartedRecording</key>
+			<real>629793615.83284402</real>
+			<key>timeStoppedRecording</key>
+			<real>629793637.40527105</real>
+			<key>title</key>
+			<string>Testing project XCUITestingDevOps with scheme XCUITestingDevOps</string>
+			<key>uniqueIdentifier</key>
+			<string>A498B982-7FCA-407C-A7D6-DD6EB2D5288C</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

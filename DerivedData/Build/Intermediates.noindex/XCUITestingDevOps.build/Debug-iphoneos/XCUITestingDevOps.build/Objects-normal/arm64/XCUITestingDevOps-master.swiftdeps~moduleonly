@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
+options: "ac1471a2c33af1dc636615a39058cde3"
+build_time: [1608100820, 361651000]
+inputs:
+  "/Users/senthil/Desktop/XCUIDevops/XCUITestingDevOps/ViewController.swift": [1608100800, 668116094]
+  "/Users/senthil/Desktop/XCUIDevops/XCUITestingDevOps/AppDelegate.swift": [1608100800, 661092136]
+  "/Users/senthil/Desktop/XCUIDevops/XCUITestingDevOps/SceneDelegate.swift": [1608100800, 667613444]
