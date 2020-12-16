@@ -15,6 +15,8 @@
 		8DB083382589CFCC005B8A55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB083362589CFCC005B8A55 /* LaunchScreen.storyboard */; };
 		8DB083432589CFCC005B8A55 /* XCUITestingDevOpsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB083422589CFCC005B8A55 /* XCUITestingDevOpsTests.swift */; };
 		8DB0834E2589CFCC005B8A55 /* XCUITestingDevOpsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB0834D2589CFCC005B8A55 /* XCUITestingDevOpsUITests.swift */; };
+		8DB08375258A50BD005B8A55 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB08374258A50BD005B8A55 /* XCTest.framework */; };
+		8DB08376258A50CA005B8A55 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB08374258A50BD005B8A55 /* XCTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		8DB083492589CFCC005B8A55 /* XCUITestingDevOpsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCUITestingDevOpsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DB0834D2589CFCC005B8A55 /* XCUITestingDevOpsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUITestingDevOpsUITests.swift; sourceTree = "<group>"; };
 		8DB0834F2589CFCC005B8A55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DB08374258A50BD005B8A55 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DB08375258A50BD005B8A55 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DB08376258A50CA005B8A55 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +88,7 @@
 				8DB083412589CFCC005B8A55 /* XCUITestingDevOpsTests */,
 				8DB0834C2589CFCC005B8A55 /* XCUITestingDevOpsUITests */,
 				8DB083292589CFCA005B8A55 /* Products */,
+				8DB08373258A50BD005B8A55 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +132,14 @@
 				8DB0834F2589CFCC005B8A55 /* Info.plist */,
 			);
 			path = XCUITestingDevOpsUITests;
+			sourceTree = "<group>";
+		};
+		8DB08373258A50BD005B8A55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DB08374258A50BD005B8A55 /* XCTest.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
