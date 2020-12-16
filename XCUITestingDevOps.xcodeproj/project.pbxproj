@@ -17,6 +17,7 @@
 		8DB0834E2589CFCC005B8A55 /* XCUITestingDevOpsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB0834D2589CFCC005B8A55 /* XCUITestingDevOpsUITests.swift */; };
 		8DB08375258A50BD005B8A55 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB08374258A50BD005B8A55 /* XCTest.framework */; };
 		8DB08376258A50CA005B8A55 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB08374258A50BD005B8A55 /* XCTest.framework */; };
+		8DB08377258A522E005B8A55 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB08374258A50BD005B8A55 /* XCTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DB08377258A522E005B8A55 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
