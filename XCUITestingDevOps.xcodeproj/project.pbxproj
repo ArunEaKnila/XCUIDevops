@@ -15,9 +15,6 @@
 		8DB083382589CFCC005B8A55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB083362589CFCC005B8A55 /* LaunchScreen.storyboard */; };
 		8DB083432589CFCC005B8A55 /* XCUITestingDevOpsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB083422589CFCC005B8A55 /* XCUITestingDevOpsTests.swift */; };
 		8DB0834E2589CFCC005B8A55 /* XCUITestingDevOpsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB0834D2589CFCC005B8A55 /* XCUITestingDevOpsUITests.swift */; };
-		8DB08375258A50BD005B8A55 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB08374258A50BD005B8A55 /* XCTest.framework */; };
-		8DB08376258A50CA005B8A55 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB08374258A50BD005B8A55 /* XCTest.framework */; };
-		8DB08377258A522E005B8A55 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB08374258A50BD005B8A55 /* XCTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +57,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DB08377258A522E005B8A55 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,7 +64,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DB08375258A50BD005B8A55 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +71,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DB08376258A50CA005B8A55 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +455,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.knila.XCUITestingDevOps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -483,6 +478,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.knila.XCUITestingDevOps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
