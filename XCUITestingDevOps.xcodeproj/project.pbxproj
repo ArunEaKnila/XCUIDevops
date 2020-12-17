@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,8 +12,8 @@
 		8DB083332589CFCA005B8A55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB083312589CFCA005B8A55 /* Main.storyboard */; };
 		8DB083352589CFCC005B8A55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DB083342589CFCC005B8A55 /* Assets.xcassets */; };
 		8DB083382589CFCC005B8A55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB083362589CFCC005B8A55 /* LaunchScreen.storyboard */; };
-		8DB083432589CFCC005B8A55 /* XCUITestingDevOpsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB083422589CFCC005B8A55 /* XCUITestingDevOpsTests.swift */; };
-		8DB0834E2589CFCC005B8A55 /* XCUITestingDevOpsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB0834D2589CFCC005B8A55 /* XCUITestingDevOpsUITests.swift */; };
+		8DB083432589CFCC005B8A55 /* XCUITestingDevOpsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB083422589CFCC005B8A55 /* XCUITestingDevOpsTests.swift */; platformFilter = ios; };
+		8DB0834E2589CFCC005B8A55 /* XCUITestingDevOpsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB0834D2589CFCC005B8A55 /* XCUITestingDevOpsUITests.swift */; platformFilter = ios; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -291,11 +291,13 @@
 /* Begin PBXTargetDependency section */
 		8DB083402589CFCC005B8A55 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilter = ios;
 			target = 8DB083272589CFCA005B8A55 /* XCUITestingDevOps */;
 			targetProxy = 8DB0833F2589CFCC005B8A55 /* PBXContainerItemProxy */;
 		};
 		8DB0834B2589CFCC005B8A55 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilter = ios;
 			target = 8DB083272589CFCA005B8A55 /* XCUITestingDevOps */;
 			targetProxy = 8DB0834A2589CFCC005B8A55 /* PBXContainerItemProxy */;
 		};
@@ -440,6 +442,7 @@
 		8DB083532589CFCC005B8A55 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -467,6 +470,7 @@
 		8DB083542589CFCC005B8A55 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -495,6 +499,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "iPhone Developer";
@@ -526,6 +531,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "iPhone Developer";
@@ -557,11 +563,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = 9722T8G52H;
+				EXCLUDED_ARCHS = "";
 				INFOPLIST_FILE = XCUITestingDevOpsUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -587,11 +595,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = 9722T8G52H;
+				EXCLUDED_ARCHS = "";
 				INFOPLIST_FILE = XCUITestingDevOpsUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
