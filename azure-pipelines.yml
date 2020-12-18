@@ -32,7 +32,7 @@ steps:
    
 - task: Xcode@5
   inputs:
-    actions: 'build-for-testing'
+    actions: 'build'
     configuration: '$(configuration)'
     sdk: '$(sdk)'
     scheme: 'XCUITestingDevOps'
@@ -54,3 +54,14 @@ steps:
     artifactName: 'drop'
     publishLocation: 'Container'
 
+- task: AppCenterTest@1
+  inputs:
+    appFile: '$(build.artifactStagingDirectory)/output/$(sdk)/$(configuration)/*.ipa'
+    artifactsDirectory: '$(Build.ArtifactStagingDirectory)/AppCenterTest'
+    frameworkOption: 'xcuitest'
+    xcUITestBuildDirectory: 'DerivedData/Build/Products/Debug-iphoneos/'
+    credentialsOption: 'serviceEndpoint'
+    serverEndpoint: 'AppCenterConn'
+    appSlug: 'ArunEaKnila/XCUITesting'
+    devices: 'Default'
+    localeOption: 'en_US'
