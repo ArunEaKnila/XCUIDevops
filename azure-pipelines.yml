@@ -60,4 +60,16 @@ steps:
     script: |
       # Write your commands here
       
-      xcodebuild -workspace XCUITestingDevOps.xcodeproj/project.xcworkspace -scheme XCUITestingDevOps -destination 'platform=iOS Simulator,name=iPhone 11,OS=14.2' test
+      xcodebuild -workspace XCUITestingDevOps.xcodeproj/project.xcworkspace -scheme XCUITestingDevOps -destination 'platform=iOS Simulator,name=iPhone 11,OS=14.2'  -resultBundlePath TestResults test-without-building
+
+- task: Bash@3
+  inputs:
+    targetType: 'inline'
+    script: |
+      # Write your commands here
+      
+      bash <(curl -s https://raw.githubusercontent.com/TitouanVanBelle/XCTestHTMLReport/master/install.sh) '2.0.0'
+      
+      xchtmlreport -r TestResults
+      
+      uuencode index.html test-report.html | mail -s "Test email" arun.e@knila.com
