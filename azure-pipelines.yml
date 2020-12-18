@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'macOS-10.14'
+  vmImage: 'macOS-latest'
   
 variables:
   - group: ios-pipeline
@@ -33,7 +33,6 @@ steps:
 - task: Xcode@5
   inputs:
     actions: 'build'
-    xcodeVersion: '11'
     configuration: '$(configuration)'
     sdk: '$(sdk)'
     scheme: 'XCUITestingDevOps'
@@ -61,4 +60,4 @@ steps:
     script: |
       # Write your commands here
       
-      xcodebuild -workspace XCUITestingDevOps.xcodeproj/project.xcworkspace -scheme XCUITestingDevOps -destination 'platform=iOS Simulator,name=iPhone 11,OS=13.3' test
+      xcodebuild -workspace XCUITestingDevOps.xcodeproj/project.xcworkspace -scheme XCUITestingDevOps -destination 'platform=iOS Simulator,name=iPhone 11,OS=14.0' test
