@@ -32,16 +32,15 @@ steps:
    
 - task: Xcode@5
   inputs:
-    actions: 'build'
-    scheme: 'XCUITestingDevOps'
-    sdk: '$(sdk)'
+    actions: 'build-for-testing'
     configuration: '$(configuration)'
-    xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
-    xcodeVersion: 'default' # Options: 8, 9, 10, 11, default, specifyPath
+    sdk: '$(sdk)'
+    scheme: 'XCUITestingDevOps'
     packageApp: true
     signingOption: 'manual'
     signingIdentity: '$(APPLE_CERTIFICATE_SIGNING_IDENTITY)'
     provisioningProfileUuid: '$(APPLE_PROV_PROFILE_UUID)'
+    args: '-derivedDataPath DerivedData'
     
 - task: CopyFiles@2
   inputs:
@@ -54,3 +53,4 @@ steps:
     pathtoPublish: '$(build.artifactStagingDirectory)/output/$(sdk)/$(configuration)'
     artifactName: 'drop'
     publishLocation: 'Container'
+
