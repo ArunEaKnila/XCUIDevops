@@ -60,4 +60,4 @@ steps:
     script: |
       # Write your commands here
       
-      xcodebuild -workspace XCUITestingDevOps.xcodeproj/project.xcworkspace -scheme XCUITestingDevOps -destination 'platform=iOS Simulator,name=iPhone 11,OS=14.0' test
+      xcodebuild -workspace XCUITestingDevOps.xcodeproj/project.xcworkspace -scheme XCUITestingDevOps -destination 'platform=iOS Simulator,name=iPhone 11,OS=14.2' test
