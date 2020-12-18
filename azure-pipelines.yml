@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'macos-latest'
+  vmImage: 'macOS-10.14'
   
 variables:
   - group: ios-pipeline
@@ -33,6 +33,7 @@ steps:
 - task: Xcode@5
   inputs:
     actions: 'build'
+    xcodeVersion: '11'
     configuration: '$(configuration)'
     sdk: '$(sdk)'
     scheme: 'XCUITestingDevOps'
