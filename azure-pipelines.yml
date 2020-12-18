@@ -55,14 +55,10 @@ steps:
     artifactName: 'drop'
     publishLocation: 'Container'
 
-- task: AppCenterTest@1
+- task: Bash@3
   inputs:
-    appFile: '$(build.artifactStagingDirectory)/output/$(sdk)/$(configuration)/*.ipa'
-    artifactsDirectory: '$(Build.ArtifactStagingDirectory)/AppCenterTest'
-    frameworkOption: 'xcuitest'
-    xcUITestBuildDirectory: 'DerivedData/Build/Products/Debug-iphoneos/'
-    credentialsOption: 'serviceEndpoint'
-    serverEndpoint: 'AppCenterConn'
-    appSlug: 'ArunEaKnila/XCUITesting'
-    devices: 'Default'
-    localeOption: 'en_US'
+    targetType: 'inline'
+    script: |
+      # Write your commands here
+      
+      xcodebuild -workspace XCUITestingDevOps.xcodeproj/project.xcworkspace -scheme XCUITestingDevOps -destination 'platform=iOS Simulator,name=iPhone 11,OS=14.0' test

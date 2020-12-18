@@ -42,7 +42,7 @@
 #
 # NB: slash on the end, so we only remove the FOLDER, not any files that were badly named "DerivedData"
 
-DerivedData/
+#DerivedData/
 
 # NB: slash on the end, so we only remove the FOLDER, not any files that were badly named "build"
 
@@ -111,11 +111,11 @@ xcuserdata/
 #    or manually install git over the top of the OS X version
 # NB: this is exclusive with OPTION 1 above
 #
-#xcuserdata/**/*
+xcuserdata/**/*
 
 #     (requires option 2 above): Personal Schemes
 #
-#!xcuserdata/**/xcschemes/*
+!xcuserdata/**/xcschemes/*
 
 ####
 # XCode 4 workspaces - more detailed
