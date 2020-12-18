@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>A498B982-7FCA-407C-A7D6-DD6EB2D5288C</key>
+		<key>B756A2C2-B209-4BDF-84EC-72B7EE4B52ED</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>A498B982-7FCA-407C-A7D6-DD6EB2D5288C.xcactivitylog</string>
+			<string>B756A2C2-B209-4BDF-84EC-72B7EE4B52ED.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -30,15 +30,15 @@
 			<key>schemeIdentifier-sharedScheme</key>
 			<integer>1</integer>
 			<key>signature</key>
-			<string>Testing project XCUITestingDevOps with scheme XCUITestingDevOps</string>
+			<string>Testing workspace XCUITestingDevOps with scheme XCUITestingDevOps</string>
 			<key>timeStartedRecording</key>
-			<real>629793615.83284402</real>
+			<real>629963969.60469794</real>
 			<key>timeStoppedRecording</key>
-			<real>629793637.40527105</real>
+			<real>629963982.72561204</real>
 			<key>title</key>
-			<string>Testing project XCUITestingDevOps with scheme XCUITestingDevOps</string>
+			<string>Testing workspace XCUITestingDevOps with scheme XCUITestingDevOps</string>
 			<key>uniqueIdentifier</key>
-			<string>A498B982-7FCA-407C-A7D6-DD6EB2D5288C</string>
+			<string>B756A2C2-B209-4BDF-84EC-72B7EE4B52ED</string>
 		</dict>
 	</dict>
 </dict>

@@ -8,9 +8,9 @@
 		<string>XCUITestingDevOpsTests</string>
 		<key>BundleIdentifiersForCrashReportEmphasis</key>
 		<array>
-			<string>com.arunea.XCUITestingDevOpsUITests</string>
+			<string>com.knila.XCUITestingDevOpsUITests</string>
+			<string>com.knila.XCUITestingDevOps</string>
 			<string>com.arunea.XCUITestingDevOpsTests</string>
-			<string>com.arunea.XCUITestingDevOps</string>
 		</array>
 		<key>CommandLineArguments</key>
 		<array/>
@@ -34,13 +34,13 @@
 		<key>ProductModuleName</key>
 		<string>XCUITestingDevOpsTests</string>
 		<key>RunOrder</key>
-		<integer>0</integer>
+		<integer>1</integer>
 		<key>SystemAttachmentLifetime</key>
 		<string>deleteOnSuccess</string>
 		<key>TestBundlePath</key>
 		<string>__TESTHOST__/PlugIns/XCUITestingDevOpsTests.xctest</string>
 		<key>TestHostBundleIdentifier</key>
-		<string>com.arunea.XCUITestingDevOps</string>
+		<string>com.knila.XCUITestingDevOps</string>
 		<key>TestHostPath</key>
 		<string>__TESTROOT__/Debug-iphoneos/XCUITestingDevOps.app</string>
 		<key>TestLanguage</key>
@@ -69,9 +69,9 @@
 		<string>XCUITestingDevOpsUITests</string>
 		<key>BundleIdentifiersForCrashReportEmphasis</key>
 		<array>
-			<string>com.arunea.XCUITestingDevOpsUITests</string>
+			<string>com.knila.XCUITestingDevOpsUITests</string>
+			<string>com.knila.XCUITestingDevOps</string>
 			<string>com.arunea.XCUITestingDevOpsTests</string>
-			<string>com.arunea.XCUITestingDevOps</string>
 		</array>
 		<key>CommandLineArguments</key>
 		<array/>
@@ -97,13 +97,13 @@
 		<key>ProductModuleName</key>
 		<string>XCUITestingDevOpsUITests</string>
 		<key>RunOrder</key>
-		<integer>1</integer>
+		<integer>0</integer>
 		<key>SystemAttachmentLifetime</key>
 		<string>deleteOnSuccess</string>
 		<key>TestBundlePath</key>
 		<string>__TESTHOST__/PlugIns/XCUITestingDevOpsUITests.xctest</string>
 		<key>TestHostBundleIdentifier</key>
-		<string>com.arunea.XCUITestingDevOpsUITests.xctrunner</string>
+		<string>com.knila.XCUITestingDevOpsUITests.xctrunner</string>
 		<key>TestHostPath</key>
 		<string>__TESTROOT__/Debug-iphoneos/XCUITestingDevOpsUITests-Runner.app</string>
 		<key>TestLanguage</key>
